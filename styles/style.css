@@ -163,6 +163,7 @@ ol {
 
 .button:focus-visible {
   outline: 1px solid #fff;
+  outline-offset: 2px;
 }
 
 .search-form__submit-button {
@@ -230,7 +231,7 @@ ol {
   outline: 1px solid #fff;
 }
 
-.content_card_link:active {
+.content__card-link:active {
   background-color: #545050;
 }
 
@@ -240,7 +241,7 @@ ol {
 }
 
 .content__video-card-title {
-  margin-block-end: 6;
+  margin-block-end: 6px;
   font-family: Oswald, sans-serif;
   font-size: 30px;
   line-height: 1;
@@ -262,5 +263,3 @@ ol {
 .content__video-card-description {
   line-height: 0.9;
 }
-
-/* test comment */
